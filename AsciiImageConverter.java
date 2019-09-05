@@ -105,6 +105,7 @@ public class AsciiImageConverter
         int[] pixelsInChunk = new int[width];
         int chunkWidth = image.getWidth()/width;
 
+        //Gray Scale algorithm
         int pixelIndex = -1;
         for(int y = 0; y<image.getHeight(); y++)
         {
